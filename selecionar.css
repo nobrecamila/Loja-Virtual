@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.body{
+
+	background-color: #FFE4E1;
+}
+
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #FFC0CB;
+
+}
+
+.botao{
+	background-color: #FF69B4;
+	width: 120px;
+	height: 40px;
+	border: none;
+	box-shadow: 4px 5px 4px; color: rgba(0, 0, 0, 0,25);
+	border-radius: 20px;
+	font-family: sans-serif;
+	color:#800000 ;
+	font-weight: 500px;
+}
+.voltar-botao{
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;
+}
+
+.logo-cabecalho{
+	height: 80px;
+
+}
+
+.frase-cabecalho{
+	font-size: 22px;
+	font-weight: 400px;
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;
+}
+
+.img{
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+	background-color: #FFC0CB;
+	padding: 30px;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 0px;
+	border-top: 0.4px solid #B22222
+
+}
+
+}
+.rodape-frase{
+	font-size: 20px;
+
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+	
+

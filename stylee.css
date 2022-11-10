@@ -1,0 +1,209 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.body{
+	background-color: #FFE4E1;
+}
+
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #FFC0CB;
+
+}
+
+.botao{
+	background-color: #FF69B4;
+	width: 120px;
+	height: 40px;
+	border: none;
+	box-shadow: 4px 5px 4px; color: rgba(0, 0, 0, 0,25);
+	border-radius: 20px;
+	font-family: sans-serif;
+	color:#800000 ;
+	font-weight: 500px;
+}
+.voltar-botao{
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;;
+	
+}
+
+.logo-cabecalho{
+	height: 80px;
+}
+
+.frase-cabecalho{
+	font-size: 22px;
+	font-weight: 400px;
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;
+}
+
+.conteudo{
+	margin-bottom: 48px;
+	border-top: 0.4px solid #B22222;
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	
+
+}
+.conteudo-principal{
+	justify-content: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 100px;
+	margin-bottom: 48px;
+	border-top: 0.4px solid #B22222
+	
+}
+
+.conteudo-principal-escrito{
+	flex-wrap: wrap;
+	font-size: 22px;
+	font-weight: 400px;	
+	text-align: center;
+}
+.frase-principal{
+	color: #800000;
+	display: flex;
+	justify-content: center;
+	font-family: unset;
+	text-align: center;
+}
+
+.paragrafo-principal{
+	display: flex;
+	justify-content: right;
+	font-family: unset;
+	column-gap: 10px;
+	text-align: center;
+}
+
+.paragrafo-secundario{
+	display: flex;
+	justify-content: center;
+	font-family: unset;
+	column-gap: 0px;
+	color: #800000;
+}
+
+
+ main.cards{
+ 	display: flex;
+ 	padding: 50px;
+ }
+
+ main.cards section.card{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	text-align: center;
+ 	justify-content: center;
+ 	background: #DDA0DD;
+ 	padding: 4rem 2rem;
+ 	border-radius: 12px;
+ 	max-height: 456px;
+ 	margin-left: 32px;
+ 	transition: all 1s;
+ 	transform: all 1s;
+ }
+
+
+main.cards section.card .icon{
+	width: 150px;
+	height: 150px;
+}
+
+main.cards section.card img{
+	width: 100%;
+}
+
+
+main.cards section.card h3{
+	font-size: 100%;
+	margin: 16px 0;
+}
+
+main.cards section.card span{
+	font-weight: 300;
+	max-width: 240px;
+	font-size: 80%;
+	margin-bottom: 30px;
+
+
+}
+main.cards section.card button{
+	background-color: #FF69B4;
+	width: 100px;
+	height: 40px;
+	border: none;
+	box-shadow: 4px 5px 4px; color: rgba(0, 0, 0, 0,25);
+	border-radius: 20px;
+	font-family: sans-serif;
+	color:#800000 ;
+	font-weight: 500px;
+}
+
+.selecionar{
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;
+}
+
+
+.rodape{
+	background-color: #FFC0CB;
+	padding: 30px;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 0px;
+	border-top: 0.4px solid #B22222
+
+}
+
+}
+.rodape-frase{
+	font-size: 20px;
+
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+
+/*padding: 0,5rem 1rem;
+	text-transform: uppercase;
+	border-radius: 32px;
+	border: 0;
+	cursor: pointer;
+	font-size: 50%;
+	font-weight: 300px;

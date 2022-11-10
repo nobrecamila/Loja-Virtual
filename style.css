@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= Pacifico & display=swap" rel="stylesheet">
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.body {
+	background-color: /* Permalink - use para editar e compartilhar este gradiente: https://colorzilla.com/gradient-editor/#fcecfc+0,fba6e1+40,fba6e1+40,ff7cd8+100 */
+fundo: rgb(252.236.252); /* Navegadores antigos */
+fundo: -moz-linear-gradient(45 graus, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 40%, rgba(251,166,225,1) 40%, rgba(255,124,216,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 40%,rgba(251,166,225,1) 40%,rgba(255,124,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+fundo: gradiente linear(45 graus, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 40%,rgba(251,166,225,1) 40%,rgba(255,124,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 fallback em gradiente horizontal */
+}
+
+.cabecalho {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.cabecalho-imagem{
+	height: 80px;
+}
+
+.cabecalho-menu{
+	display: flex;
+	gap:  32px;
+}
+.cabecalho-menu-item {
+	font-family: 'Cookie', cursiva;
+	color: #8B0000;
+	font-weight: 400px;
+	font-size: 18px;
+}
+
+.conteudo {
+	margin-bottom: 48px;
+	border-top: 0.4px solid #B22222
+}
+
+.conteudo-principal{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 100px;
+}
+
+.conteudo-principal-escrito{
+	font: font-family: 'Cookie', cursiva;
+	família de fontes: 'M PLUS Rounded 1c', sem serifa;;
+	font-size: 25px;
+	color: #800000;
+	display: flex;
+	flex-direction: column;
+	gap: 40x;
+}
+.conteudo-principal-titulo {
+	font-family: unset;
+	font-style: italic;
+	color:#DC143C ;
+	font-weight: 100px;
+	font-size: 100px;
+
+}
+.conteudo-principal-escrito-subtitulo{}
+
+.conteudo-principal-escrito-botao{
+	background-color: #FF69B4;
+	width: 120px;
+	height: 40px;
+	border: none;
+	box-shadow: 4px 5px 4px; color: rgba(0, 0, 0, 0,25);
+	border-radius: 20px;
+	font-family: sans-serif;
+	color:#800000 ;
+	font-weight: 500px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+	background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem{
+	height: 500px;
+}
+
+.conteudo-secundario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	color:#800000 ;
+	font-weight: 500px;
+}
+
+.conteudo-secundario-titulo{
+	border-top: 0.4px solid #B22222;
+	padding-top: 35px;
+	font-family: 'Satisfy', cursiva; 
+	color:#800000 ;
+	font-weight: 500px;
+	margin-bottom: 16px;
+	font-size: 26px;
+}
+
+.conteudo-secundario-paragrafo{
+	font-family: sans-serif;
+	color:#DC143C ;
+	font-weight: 300px;
+	font-size: 18px;
+	line-height: 00px;
+}
+
+.rodape {
+	padding: 20px;
+	border-top: 0.4px solid #B22222;
+}
+
+.rodape-imagem {
+	font-family: 'Satisfy', cursiva;
+	color: #800000;
+	font-size: 34px;
+	font-weight: 500px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
